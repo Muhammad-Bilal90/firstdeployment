@@ -42,4 +42,5 @@ jobs:
         run: npm install -g surge    
           
       - name: deploying using surge
-        run: surge ./build myfirstdeployment.surge.sh/ --token "a63fef13b0b2559e496574b653512567"
+        # run: surge ./build myfirstdeployment.surge.sh/ --token "a63fef13b0b2559e496574b653512567"
+        run: surge ./build myfirstdeployment.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
