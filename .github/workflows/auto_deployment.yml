@@ -30,11 +30,14 @@ jobs:
           node-version: 14
         
       # Runs a set of commands using the runners shell
-      - name: Installing npm
+      - name: Github Actions for npm
         uses: jaid/action-npm-install@v1.2.1
         with:
           cmd: install
 
+      - name: creating build
+        run: npm run build
+            
       - name: Installing surge
         run: npm install -g surge    
           
