@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Menu from './components/menu';
+import Counter from './components/counter';
 
 function App() {
   return (
     <div className="App">
-      <h1> OUR MENU </h1>
+      {/* <h1> OUR MENU </h1>
 
       <hr />
 
@@ -19,7 +19,9 @@ function App() {
 
       <Menu dishes={'Chicken Biryani'} sweet={'Gulaab Jamun'} drink={'Kashmiri Chai'} naan={'Puri Paratha'} />
 
-      <hr />
+      <hr /> */}
+
+      <Counter />
 
     </div>
   );
