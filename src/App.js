@@ -7,7 +7,7 @@ function App() {
   return (
     <div className={`App ${isDark ? 'darkMode' : "" }`}>
 
-  <h1> MODE : {isDark ? 'Dark Mode' : 'Light Mode'} </h1>
+    <h1> MODE : {isDark ? 'Dark Mode' : 'Light Mode'} </h1>
 
       {/* <h1> OUR MENU </h1>
 
@@ -27,7 +27,7 @@ function App() {
 
       <Counter/>
 
-      <button onClick={() => setDark(!isDark)}>{isDark ? 'Dark Mode' : 'Light Mode'}</button>
+      <button onClick={() => setDark(!isDark)}>{isDark ? 'Light Mode' : 'Dark Mode'}</button>
 
     </div>
   );
