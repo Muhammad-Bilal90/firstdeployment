@@ -27,6 +27,8 @@ function App() {
 
       <Counter/>
 
+      <br />
+      
       <button onClick={() => setDark(!isDark)}>{isDark ? 'Light Mode' : 'Dark Mode'}</button>
 
     </div>
