@@ -8,16 +8,16 @@ function App() {
       <h1> OUR MENU </h1>
 
       <hr />
-      
-      <Menu dishes={'Chicken Karahi'} sweet={'Kheer'} drink={'Lassi'} nan={'Roghni Naan'} />
+
+      <Menu dishes={'Chicken Karahi'} sweet={'Kheer'} drink={'Lassi'} naan={'Roghni Naan'} />
 
       <hr />
 
-      <Menu dishes={'Chicken Handi'} sweet={'Gajar Ka Halwa'} drink={'Kehwa'} nan={'Makaie Ki Rotti'} />
+      <Menu dishes={'Chicken Handi'} sweet={'Gajar Ka Halwa'} drink={'Kehwa'} naan={'Makaie Ki Rotti'} />
 
       <hr />
 
-      <Menu dishes={'Chicken Biryani'} sweet={'Gulaab Jamun'} drink={'Kashmiri Chai'} nan={'Puri Paratha'} />
+      <Menu dishes={'Chicken Biryani'} sweet={'Gulaab Jamun'} drink={'Kashmiri Chai'} naan={'Puri Paratha'} />
 
       <hr />
 
