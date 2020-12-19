@@ -21,7 +21,7 @@ function App() {
 
       <hr /> */}
 
-      <Counter />
+      <Counter increment={5} decrement={5} />
 
     </div>
   );
