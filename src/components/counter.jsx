@@ -7,7 +7,9 @@ function Counter(props) {
     return (
         <div>
             <h3>Value of Counter variable is: {count} </h3>
+            {/* <button onClick={() => setCount(count + 1)}>Increment</button> */}
             <button onClick={() => setCount(++count)}>Increment</button>
+            {/* <button onClick={() => setCount(count - 1)}>decrement</button> */}
             <button onClick={() => setCount(--count)}>decrement</button>
         </div>
     )

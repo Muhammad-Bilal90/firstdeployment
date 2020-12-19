@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Counter from './components/counter';
 
 function App() {
+  let [isDark, setDark] = useState(false);
   return (
-    <div className="App">
+    <div className={`App ${isDark ? 'darkMode' : "" }`}>
+
+  <h1> MODE : {isDark ? 'Dark Mode' : 'Light Mode'} </h1>
+
       {/* <h1> OUR MENU </h1>
 
       <hr />
@@ -21,7 +25,9 @@ function App() {
 
       <hr /> */}
 
-      <Counter increment={5} decrement={5} />
+      <Counter/>
+
+      <button onClick={() => setDark(!isDark)}>{isDark ? 'Dark Mode' : 'Light Mode'}</button>
 
     </div>
   );
