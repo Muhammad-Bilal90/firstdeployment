@@ -5,6 +5,10 @@ import Menu from './components/menu';
 function App() {
   return (
     <div className="App">
+      <h1> OUR MENU </h1>
+
+      <hr />
+      
       <Menu dishes={'Chicken Karahi'} sweet={'Kheer'} drink={'Lassi'} nan={'Roghni Naan'} />
 
       <hr />
